@@ -671,3 +671,101 @@ footer .textt{
     gap: 10px;
     margin-top: 60px;
 }
+
+@media screen and (max-width: 431px) {
+    header nav{
+        width: 430px;
+        height: 100px;
+        flex-direction: column;
+    }    
+
+    main .first-win{
+        flex-direction: column;
+    }
+
+    main .second-win{
+        flex-direction: column;
+    }
+
+    main .second-win .divs{
+        flex-direction: column;
+    }
+
+    main .third-win .divs{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 400px);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    main .fourth-win .divs{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 440px);
+    }
+
+    main .fourth-win .divs .div img{
+        width: 80px;
+        height: 100px;
+        position: absolute;
+        top: 10px;
+    }
+
+    main .fifth-win .divs{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 700px);
+        grid-template-rows: repeat(8, 250px);
+    }
+
+    main .sixth-win{
+        width: 400px;
+        height: 600px;
+        margin-top: 1200px;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 600px);
+    }
+
+    main .sixth-win .divs{
+        flex-direction: column;
+    }
+
+    main .sixth-win .btn{
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 400px);
+        margin-top: 100px;
+    }
+
+    main .sixth-win .seventh-win{
+        margin-top: 500px;
+        flex-direction: column;
+        position: relative;
+    }
+
+    main .sixth-win .seventh-win img{
+        position: absolute;
+        left: 550px;
+        bottom: 100px;
+    }
+
+    footer{
+        height: 400px;
+        margin-top: 2000px;
+        padding-left: 100px;
+        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 700px);
+        grid-template-rows: repeat(3, auto);
+    }
+
+    footer .icons{
+        margin-top: 100px;
+        padding-left: 80px;
+    }
+
+    footer .textt{
+        margin-top: 150px;
+    }
+}
